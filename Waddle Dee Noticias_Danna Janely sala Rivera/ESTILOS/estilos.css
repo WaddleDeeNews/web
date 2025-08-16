@@ -1,0 +1,52 @@
+@charset "utf-8";
+@import url("menu.css");
+@import url("carrusel.css");
+@import url("Ultimasnoticias.css");
+@import url("contenido.css");
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url(../IMAGENES/FONDO.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+
+}
+
+h1{
+    font-family: "Playwrite PL", cursive;
+    color: rgb(255, 204, 85);
+}
+
+
+header {
+    width: 1150px   ;
+    height: 90px;
+    background-color:rgb(24, 121, 117) ;
+
+}
+
+#contenedor {
+    width: 1150px;
+    height: 1300PX;
+    margin: auto;
+    background-color: #e35a0a ;
+}
+
+#titulo {
+  font-family: "Playwrite HU", cursive;
+    color: #ffe692;
+    font-size: 44px;
+    padding: 10px 150px 5px 150px;
+    text-align: center;
+}
+
+
+
+    

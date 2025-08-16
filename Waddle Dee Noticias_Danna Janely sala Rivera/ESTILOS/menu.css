@@ -1,0 +1,31 @@
+@charset "utf-8";
+
+#menuss {
+    width: 1150px;
+    height: 80px;
+    background-color: #e06028;
+}
+
+.menu ul {
+    margin: 0;
+    list-style: none;
+    padding: 0;
+    float:left;
+    font-family: "Edu NSW ACT Hand Pre", cursive;;
+}
+
+.menu li {
+    border-right: 2px solid rgb(228, 123, 11);
+    display: inline-block;
+}
+
+.menu li a:hover {
+   background-color: #d24f1b ;
+}
+.menu li a {
+    display: block;
+    padding: 25px 30px;
+    color: #ffd573;
+      text-decoration: none;
+}
+
